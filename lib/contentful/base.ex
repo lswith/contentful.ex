@@ -1,6 +1,4 @@
 defmodule Contentful.Base do
-  require Logger
-
   alias Contentful.{IncludeResolver, Http}
 
   defmacro __using__(params) do

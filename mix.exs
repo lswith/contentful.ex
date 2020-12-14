@@ -16,16 +16,6 @@ defmodule Contentful.Mixfile do
     ]
   end
 
-  # Configuration for the OTP application
-  #
-  # Type "mix help compile.app" for more information
-  def application do
-    [applications: [
-      :logger,
-      :httpoison
-    ]]
-  end
-
   # Dependencies can be Hex packages:
   #
   #   {:mydep, "~> 0.3.0"}
