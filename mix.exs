@@ -37,9 +37,9 @@ defmodule Contentful.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.13"},
-      {:poison, "~> 3.1.0"},
-      {:exvcr, "~> 0.7", only: :test},
+      {:httpoison, "~> 1.6"},
+      {:poison, "~> 3.1"},
+      {:exvcr, "~> 0.12", only: :test},
       {:dogma, "~> 0.1", only: :dev}
     ]
   end
